@@ -9,7 +9,9 @@ int main()
 	int var = 10;
 
 	printf("%d \n", var);
-
+	
+	int var2= 20;
+	printf("%d \n", var2);
 
 	return 0;
 }
