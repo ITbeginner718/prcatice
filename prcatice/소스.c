@@ -1,16 +1,16 @@
-#include <stdio.h> //¶óÀÌºê·¯¸® »ı¼º
+#include <stdio.h> //ë¼ì´ë¸ŒëŸ¬ë¦¬ ìƒì„±
 
-int main() //¸ŞÀÎ ÇÔ¼ö »ı¼º 
+int main() //ë©”ì¸ í•¨ìˆ˜ ìƒì„± 
 {
 	/*
-	//printf() ¸í·É¹® Ãâ·Â 
+	//printf() ëª…ë ¹ë¬¸ ì¶œë ¥ 
 	int var = 0;
 	scanf_s("%d",&var);
 	printf("var:%d \n",var);
 
 	float flo = 0.0;
 	scanf_s("%f",&flo);
-	printf("var:%.1f \n", flo); //Çü½Ä ¹®ÀÚ¿­ ¾Õ¿¡ .1¸¦ ºÙÈ÷¸é Ã¹Â° Â¥¸® ¼Ò¼öÁ¡ ±îÁö¸¸ Ãâ·Â 
+	printf("var:%.1f \n", flo); //í˜•ì‹ ë¬¸ìì—´ ì•ì— .1ë¥¼ ë¶™íˆë©´ ì²«ì§¸ ì§œë¦¬ ì†Œìˆ˜ì  ê¹Œì§€ë§Œ ì¶œë ¥ 
 
 	double dou = 0.0;
 	scanf_s("%lf", &dou);
@@ -18,18 +18,20 @@ int main() //¸ŞÀÎ ÇÔ¼ö »ı¼º
 	
 
 	char ch = 0;
-	scanf_s("%c", &ch,1); //_s:¾ÈÀüÇÏ°Ô ¹®ÀÚ¸¦ ÀÔ·Â¹Ş´Â ¶æÀ¸·Î Ç×»ó ¹®ÀÚ¿¡ ´ëÇÑ ÀÎ¼ö¸¦ Àü´ŞÇØ¾ß ÇÔ 
+	scanf_s("%c", &ch,1); //_s:ì•ˆì „í•˜ê²Œ ë¬¸ìë¥¼ ì…ë ¥ë°›ëŠ” ëœ»ìœ¼ë¡œ í•­ìƒ ë¬¸ìì— ëŒ€í•œ ì¸ìˆ˜ë¥¼ ì „ë‹¬í•´ì•¼ í•¨ 
 	printf("ch:%c \n", ch);
 	
 
 	char ch_s[20] = { 0 };
-	scanf_s("%s", ch_s, sizeof(ch_s)); //scanf:¿£ÅÍ ¹× ¶ç¾î¾²±â·Î ¹®ÀÚ ÀÔ·Â Á¾·á 
-	printf(ch_s,"Á¾·á\n");
+	scanf_s("%s", ch_s, sizeof(ch_s)); //scanf:ì—”í„° ë° ë„ì–´ì“°ê¸°ë¡œ ë¬¸ì ì…ë ¥ ì¢…ë£Œ 
+	printf(ch_s,"ì¢…ë£Œ\n");
 	
 
 	char ch_s[20] = { 0 };
-	gets_s(ch_s, sizeof(ch_s)); //gets:¿£ÅÍ·Î ¹®ÀÚ ÀÔ·Â Á¾·á
+	gets_s(ch_s, sizeof(ch_s)); //gets:ì—”í„°ë¡œ ë¬¸ì ì…ë ¥ ì¢…ë£Œ
 	printf(ch_s);
 	*/
+	
+	/*ê°€*/
 	return 0;
 }
